@@ -16,6 +16,9 @@ Any questions, feel free to contact me, lwang97@illinois.edu
 Data set splits:
 * Train, and test splits (the left is used for validation), please check readme.txt [download](https://drive.google.com/file/d/0B_s0NuQ5DMW_V3lEbUFNZnFpNlE/view)
 
+We used the split from the [Flickr30K Entities](https://github.com/BryanPlummer/flickr30k_entities/blob/master/test.txt) split.
+
+
 To extract images and sentences features, 
 * For image features, we use the VGG 19 network to extract features. 
 * For sentence features, we are using the code from "B. Klein, G. Lev, G. Sadeh, L. Wolf. Associating Neural Word Embeddings With Deep Image Representations Using Fisher Vectors (CVPR 2015)". Their code can be downloaded [here](https://owncloud.cs.tau.ac.il/index.php/s/vb7ys8Xe8J8s8vo).
